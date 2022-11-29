@@ -9,7 +9,7 @@
     <link rel="icon" type="image/png" href="images/favicon.png">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- Document title -->
-    <title>POLO | The Multi-Purpose HTML5 Template</title>
+    <title>Servitur</title>
     <!-- Stylesheets & Fonts -->
     <link href="css/plugins.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
@@ -43,6 +43,30 @@
 <body>
     <!-- Body Inner -->
     <div class="body-inner">
+        <!-- Topbar -->
+        <div id="topbar" class="topbar topbar-fullwidth dark d-none d-xl-block d-lg-block">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <ul class="top-menu">
+                            <li><a href="#">Phone: +1 (234) 567-890</a></li>
+                            <li><a href="#">Email: contact@inspiro-media.com</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 d-none d-sm-block">
+                        <div class="social-icons social-icons-colored-hover">
+                            <ul>
+                                <li class="social-facebook"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li class="social-google"><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                <li class="social-youtube"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end: Topbar -->
+        
         <!-- MENU -->
         <header id="header" data-fullwidth="true" class="header-mini dark">
             <div class="header-inner">
@@ -60,7 +84,7 @@
                         <ul>
                             <li>
                                 <div class="p-dropdown">
-                                    <a href="#"><i class="icon-globe"></i><span>ES</span></a>
+                                    <a href="#">ES</a>
                                     <ul class="p-dropdown-content">
                                         <li><a href="#">SPANISH / ESPAÑOL</a></li>
                                         <li><a href="#">ENGLISH / INGLÉS</a></li>
@@ -80,12 +104,12 @@
                         <div class="container">
                             <nav>
                                 <ul>
-                                    <li><a href="#">INICIO</a></li>
+                                    <li><a href="index.html">INICIO</a></li>
                                     <li><a href="flota.html">NUESTRA FLOTA</a></li>
                                     <li><a href="servicios.html">SERVICIOS</a></li>
                                     <li><a href="contacto.html">CONTACTO</a></li>
-                                    </ul>
-                                </nav>
+                                </ul>
+                            </nav>
                         </div>
                     </div>
                     <!--end: MENU-->
@@ -148,86 +172,7 @@
             <!-- END REVOLUTION SLIDER -->
             <!-- FUNCIONAMIENTO REV SLIDER -->
             <script type="text/javascript">
-                var tpj = jQuery;
-                var revapi1083;
-                tpj(document).ready(function() {
-                    if (tpj("#rev_slider_1083_1").revolution == undefined) {
-                        revslider_showDoubleJqueryError("#rev_slider_1083_1");
-                    } else {
-                        revapi1083 = tpj("#rev_slider_1083_1").show().revolution({
-                            sliderType: "standard",
-                            jsFileLocation: "plugins/slider-revolution/js/",
-                            sliderLayout: "auto",
-                            dottedOverlay: "none",
-                            delay: 6000,
-                            navigation: {
-                                keyboardNavigation: "off",
-                                keyboard_direction: "horizontal",
-                                mouseScrollNavigation: "off",
-                                mouseScrollReverse: "default",
-                                onHoverStop: "off",
-                                touch: {
-                                    touchenabled: "on",
-                                    swipe_threshold: 75,
-                                    swipe_min_touches: 1,
-                                    swipe_direction: "horizontal",
-                                    drag_block_vertical: false
-                                },
-                                bullets: {
-                                    enable: true,
-                                    hide_onmobile: true,
-                                    hide_under: 600,
-                                    style: "hermes",
-                                    hide_onleave: true,
-                                    hide_delay: 200,
-                                    hide_delay_mobile: 1200,
-                                    direction: "vertical",
-                                    h_align: "right",
-                                    v_align: "center",
-                                    h_offset: 30,
-                                    v_offset: 0,
-                                    space: 5,
-                                    tmp: ''
-                                }
-                            },
-                            viewPort: {
-                                enable: true,
-                                outof: "pause",
-                                visible_area: "80%",
-                                presize: false
-                            },
-                            responsiveLevels: [1240, 1024, 778, 480],
-                            visibilityLevels: [1240, 1024, 778, 480],
-                            gridwidth: [1240, 1024, 778, 480],
-                            gridheight: [700, 600, 500, 400],
-                            lazyType: "none",
-                            parallax: {
-                                type: "mouse",
-                                origo: "slidercenter",
-                                speed: 2000,
-                                levels: [2, 3, 4, 5, 6, 7, 12, 16, 10, 50, 46, 47, 48, 49, 50, 55],
-                                type: "mouse",
-                            },
-                            shadow: 0,
-                            spinner: "off",
-                            stopLoop: "off",
-                            stopAfterLoops: -1,
-                            stopAtSlide: -1,
-                            shuffle: "off",
-                            autoHeight: "off",
-                            hideThumbsOnMobile: "off",
-                            hideSliderAtLimit: 0,
-                            hideCaptionAtLimit: 0,
-                            hideAllCaptionAtLilmit: 0,
-                            debugMode: false,
-                            fallbacks: {
-                                simplifyAll: "off",
-                                nextSlideOnWindowFocus: "off",
-                                disableFocusListener: false,
-                            }
-                        });
-                    }
-                }); /*ready*/
+                
             </script>
         </section>
         <!-- end: Revolution Slider-->
@@ -328,6 +273,8 @@
     <script src="js/plugins.js"></script>
     <!--Template functions-->
     <script src="js/functions.js"></script>
+    <!-- Revolution Slider-->
+    <script src="js/revolution_slider.js"></script>
 </body>
 
 </html>
