@@ -2997,6 +2997,8 @@ Helpers
 
 .background-grey { background-color: #f9f9fa !important; }
 
+.background-gradient { background: linear-gradient(to right, rgb(0, 138, 2), rgb(30, 139, 147)); }
+
 .background-dark { background-color: #1e2022 !important; }
 
 .background-black { background-color: #000000 !important; }
