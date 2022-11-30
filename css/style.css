@@ -1,15 +1,4 @@
 @charset "UTF-8";
-/*
-
-Polo - Multipurpose HTML5 Template
-Version: 5.9.9
-Website: https://inspirothemes.com/themes/polo
-License: https://inspirothemes.com/themes/polo/license.html
-Inspiro Themes (https://inspirothemes.com)
-Author: INSPIRO - Ardian Berisha
-Copyright 2021
-
-*/
 @import url("https://fonts.googleapis.com/css?family=Poppins:100,200,400,500,600,700,800|Nunito:300,400,600,700,800");
 section { padding: 6rem 0; position: relative; width: 100%; z-index: 1; background-color: #fff; }
 
@@ -21,7 +10,7 @@ section .page-content { padding: 0; }
 
 .rounded-circle { min-width: 1rem; min-height: 1rem; }
 
-/*! Polo Widgets */
+/*! Widgets */
 .widget-list { margin: 0; padding: 0; list-style: none; }
 
 .widget-title { margin-bottom: 1.125rem; font-size: 1.08rem; font-weight: 600; }
@@ -3798,7 +3787,7 @@ input.daterange:after, input.dates:after { font-family: inspiro-icons !important
 
 .daterangepicker .calendar-time select.ampmselect, .daterangepicker .calendar-time select.hourselect, .daterangepicker .calendar-time select.minuteselect { min-height: 20px; background-color: #fff !important; }
 
-/*! Polo components */
+/*! components */
 input:not([type="checkbox"]):not([type="radio"]), select, .input-group-text { min-height: 40px; }
 
 .form-group { margin-bottom: 1rem; }
