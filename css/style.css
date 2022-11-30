@@ -2452,7 +2452,7 @@ Scroll top
 
 #scrollTop:hover i { -webkit-transform: translate(0, -39px) !important; -ms-transform: translate(0, -39px) !important; transform: translate(0, -39px) !important; }
 
-#scrollTop:after, #scrollTop:before { display: block; content: ' '; height: 100%; width: 100%; position: absolute; top: 0; left: 0; z-index: 1; background-color: #2250fc; -webkit-transform: scale(0); -ms-transform: scale(0); transform: scale(0); -webkit-transition: all 0.3s cubic-bezier(0.55, 0, 0.1, 1); transition: all 0.3s cubic-bezier(0.55, 0, 0.1, 1); border-radius: 100px; }
+#scrollTop:after, #scrollTop:before { display: block; content: ' '; height: 100%; width: 100%; position: absolute; top: 0; left: 0; z-index: 1; background-color: #008a02; -webkit-transform: scale(0); -ms-transform: scale(0); transform: scale(0); -webkit-transition: all 0.3s cubic-bezier(0.55, 0, 0.1, 1); transition: all 0.3s cubic-bezier(0.55, 0, 0.1, 1); border-radius: 100px; }
 
 #scrollTop:before { background-color: rgba(255, 255, 255, 0.25); -webkit-transform: scale(1); -ms-transform: scale(1); transform: scale(1); -webkit-transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1); transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1); opacity: 0; z-index: 2; }
 
@@ -5398,7 +5398,7 @@ Carousels
 
 .flickity-button:before { color: #1e2022; }
 
-.flickity-button:hover { background-color: #2250fc; }
+.flickity-button:hover { background-color: #008a02; }
 
 .flickity-button:hover:before { color: #fff; }
 
