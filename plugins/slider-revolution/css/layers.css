@@ -2709,6 +2709,7 @@ website:   	http://www.themepunch.com
 .tp-caption.Travel-BigCaption,
 .Travel-BigCaption {
     color: rgba(255, 255, 255, 1.00);
+    stroke: gray;
     font-size: 50px;
     line-height: 50px;
     font-weight: 400;
